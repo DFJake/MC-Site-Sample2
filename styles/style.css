@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 0 0px;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #0099ff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+    animation: moveFromDownToUp 1s 1;
+}
+.logo:hover{
+    transform: rotate(-30deg) scale(1.05);
+}
+
+.nav_one{
+    color: #22356F;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 32px;
+}
+.nav_one:hover{
+    color: #3758bb;
+}
+
+
+
+    /* main */
+
+
+main{
+    width: 100%;
+    height: 315vh;
+}
+
+
+.art_1{
+    width: 100%;
+    height: 111vh;
+    background-color: black;
+    color: white;
+    background-image: url(https://cdn.shazoo.ru/543013_ujH2wqbCAD_sildurs_vibrant_shaders.jpg);
+}
+.art_1b{
+    width: 100%;
+    height: 111.7vh;
+    margin-top: -1040px;
+    background-color: rgba(2, 2, 0, 0.377);
+}
+
+.div1_1glav{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 46%;
+    padding-top: 400px;
+}
+
+.name{
+    width: 50%;
+}
+
+.h1MP{
+    margin-left: 3.7%;
+    justify-content: center;
+    animation: moveFromDownToUp 1.3s 1;
+}
+
+.ip{
+    color: rgba(245, 245, 245, 0.808);
+    font-size: 30px;
+    margin-top: -130px;
+    justify-content: center;
+    margin-left: -2.7%;
+    animation: moveFromDownToUp 1.4s 1;
+}
+.title1{
+    color: rgba(245, 245, 245, 0.808);
+    font-size: 27px;
+    justify-content: center;
+    margin-left: -2.4%;
+    animation: moveFromDownToUp 1.5s 1;
+}
+.title2{
+    color: rgba(245, 245, 245, 0.808);
+    font-size: 27px;
+    justify-content: center;
+    margin-left: -4%;
+    margin-top: -70px;
+    animation: moveFromDownToUp 1.6s 1;
+}
+.title3{
+    color: rgba(245, 245, 245, 0.808);
+    font-size: 27px;
+    justify-content: center;
+    margin-left: -7%;
+    margin-top: -10px;
+    animation: moveFromDownToUp 1.7s 1;
+}
+.title4{
+    color: rgba(245, 245, 245, 0.808);
+    font-size: 27px;
+    justify-content: center;
+    margin-left: -11.7%;
+    margin-top: -10px;
+    animation: moveFromDownToUp 1.8s 1;
+}
+.version{
+    color: rgba(245, 245, 245, 0.808);
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 2.1%;
+    animation: moveFromDownToUp 1.9s 1;
+}
+
+
+.btn{
+    width: 180px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: -1.9%;
+    animation: moveFromDownToUp 2s 1;
+}
+@keyframes moveFromDownToUp{
+    0%   { margin-top: 100vh;}
+    100% { margin-top: 0;}
+}
+
+.divInfoBtn{
+    width: 134px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: -1.6%;
+    animation: moveFromDownToUp 2s 1;
+}
+@keyframes moveFromDownToUp{
+    0%   { margin-top: 100vh;}
+    100% { margin-top: 0;}
+}
+
+
+
+
+.art_2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+
+.txt_store{
+    color: black;
+    font-size: 35px;
+    /* font-weight: 400; */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+}
+
+.div2_1{
+    color: black;
+    font-size: 25px;
+    /* font-weight: 400; */
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -40px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aStoreRow{
+    text-decoration: none;
+}
+
+.unban_banner{
+    width: 256px;
+    height: 256px;
+    margin-top: 100px;
+    border-radius: 50px;
+    transition: 0.1s;
+    animation: moveFromDownToUpIMG 2s 1;
+}
+.unban_banner:hover{
+    transform: scale(1.06);
+}
+.spanUnbanTxt{
+    color: black;
+}
+
+.enter_banner{
+    width: 256px;
+    height: 256px;
+    margin-right: 500px;
+    margin-top: 100px;
+    border-radius: 50px;
+    transition: 0.1s;
+    animation: moveFromDownToUpIMG 2.2s 1;
+}
+.enter_banner:hover{
+    transform: scale(1.06);
+}
+.spanEnterTxt{
+    color: black;
+}
+
+.sponsor_banner{
+    width: 256px;
+    height: 256px;
+    margin-left: -500px;
+    margin-top: 100px;
+    border-radius: 50px;
+    transition: 0.1s;
+    animation: moveFromDownToUpIMG 2.4s 1;
+}
+.sponsor_banner:hover{
+    transform: scale(1.06);
+}
+
+.spanSponsorTxt{
+    color: black;
+    margin-left: -500px;
+}
+
+
+.vip_banner{
+    width: 256px;
+    height: 256px;
+    margin-top: 100px;
+    border-radius: 50px;
+    transition: 0.1s;
+    animation: moveFromDownToUpIMG 2.6s 1;
+}
+.vip_banner:hover{
+    transform: scale(1.06);
+}
+.spanVipTxt{
+    color: black;
+}
+
+
+.yt_banner{
+    width: 256px;
+    height: 256px;
+    margin-right: 795px;
+    margin-top: 100px;
+    border-radius: 50px;
+    transition: 0.1s;
+    animation: moveFromDownToUpIMG 2.8s 1;
+}
+.yt_banner:hover{
+    transform: scale(1.06);
+}
+.spanYtTxt{
+    color: black;
+}
+@keyframes moveFromDownToUpIMG{
+    0%   { margin-top: 200vh;}
+    100% { margin-top: 0;}
+}
+
+
+
+
+
+.art_3{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 330vh;
+}
+
+.WipeImgLogos{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.WipeImgLogos:hover{
+    transform: rotate(-20deg) rotate(-15deg) scale(1.1);
+}
+
+.WipeImgLogosOld{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.WipeImgLogosOld:hover{
+    transform: rotate(-20deg) rotate(-15deg) scale(1.1);
+}
+
+.WipeImgLogosOld2{
+    width: 37px;
+    height: 45px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.WipeImgLogosOld2:hover{
+    transform: rotate(-20deg) rotate(-15deg) scale(1.1);
+}
+
+.divSeasonGlav{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1746d3;
+    font-size: 35px;
+}
+
+.hrClassWipe{
+    width: 900px;
+    margin-right: 600px;
+}
+
+.divSeasonWipes{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 500px;
+}
+
+.spanInfoSeasonImgCircle{
+    width: 13px;
+    height: 13px;
+}
+
+
+
+
+    /* footer */
+
+
+footer{
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    margin-top: 340vh;
+    height: 15vh;
+}
+
+.div_footer{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+.div_contacts{
+    margin: 0 auto;
+}
+
+.vkLogo{
+    width: 40px;
+    height: 40px;
+    margin-left: 1500px;
+    border-radius: 50px;
+    transition: 0.121s;
+}
+.vkLogo:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+}
+.tgLogo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50px;
+    transition: 0.121s;
+}
+.tgLogo:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+}
+.dsLogo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50px;
+    transition: 0.121s;
+}
+.dsLogo:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+.div_citate{
+    color: #4eaeee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+
+
+.aClassLogo{
+    text-decoration: none;
+}
+
+
+.div2_rights{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(78, 75, 75);
+}
+.logoRights{
+    width: 48px;
+    height: 48px;
+    margin-top: 15px;
+}
+
+.div2_rightTxt1{
+    margin-top: -50px;
+    margin-left: 55px;
+}
+.rightsTxt{
+    color: white;
+}
+.rightTxtMP{
+    color: white;
+    font-weight: 700;
+}
+.rights2Txt{
+    color: rgb(20, 20, 20);
+}
+
+
+.siteMakeAd{
+    margin-left: 1500px;
+    margin-top: -20px;
+}
+.siteMakeAdLogo{
+    width: 32px;
+    height: 32px;
+}
